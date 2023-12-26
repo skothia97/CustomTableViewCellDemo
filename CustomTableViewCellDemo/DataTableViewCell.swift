@@ -10,6 +10,7 @@ import UIKit
 class DataTableViewCell: UITableViewCell {
     
     @IBOutlet weak var lblData: UILabel!
+    @IBOutlet weak var img: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
